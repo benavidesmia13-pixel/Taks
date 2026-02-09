@@ -2,21 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <nav>
-         <li><a href="{% url 'home' %}">Inicio</a></li>
-=======
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crud</title>
 </head>
 <body>
     <nav>
         <li><a href="{% url 'home' %}">Inicio</a></li>
->>>>>>> 446de9e35a84626c8898237d2490615440d9323e
         {% if user.is_authenticated %}
         <li><a href="{% url 'signout' %}">Salir</a></li>
         {% else %}
@@ -25,10 +16,6 @@
     </nav>
     {% block content %}
 
-<<<<<<< HEAD
-    {% endblock content %}
-=======
     {% endblock %}
->>>>>>> 446de9e35a84626c8898237d2490615440d9323e
 </body>
 </html>

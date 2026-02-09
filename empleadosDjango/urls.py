@@ -24,9 +24,5 @@ urlpatterns = [
     path("signup/", views.signup, name="signup"),
     path("tasks/", views.tasks, name="tasks"),
     path("signout/", views.signout, name="signout"),
-<<<<<<< HEAD
-     path("signin/", views.signin, name="signin")
-=======
     path("signin/", views.signin, name="signin"),
->>>>>>> 446de9e35a84626c8898237d2490615440d9323e
 ]
